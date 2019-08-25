@@ -1,4 +1,4 @@
-; Sumar numeros de 3 cifras, y guardar en un archivo
+;Suma de 3 digitos
 %macro imprimir 2
 	mov eax, 4
 	mov ebx, 1
@@ -22,7 +22,7 @@ section .data
 	n1 db "   "
 	n2 db "   "
 	suma db "   "
-	archivo db "/home/victor/Documentos/ensamblador/archivo.txt", 0
+	archivo db "/home/victor/Documentos/archivo.txt", 0
 
 section .bss
 	texto resb 25

@@ -7,7 +7,7 @@
 	int 80h
 %endmacro
 SECTION .data
-	filename db "/home/victor/Documentos/ensamblador/archivo.txt", 0
+	filename db "/home/victor/Documentos/archivo.txt", 0
 	mensaje db "Se ha eliminado el documento",10
 	len_mensaje equ $-mensaje
 SECTION .text
